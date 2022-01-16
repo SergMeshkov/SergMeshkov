@@ -3,8 +3,6 @@ package ru.geekbrains.java2.lessons.HomeWork.DZ.DZ2;
 
 
 public class DZ {
-
-
     public static void main(String[] args) {
         String[][] arrMY = new String[][]{{"1", "1", "1", "1","1"}, {"2", "2", "2", "2"}, {"3", "3", "3", "3"}, {"4", "4", "4", "4"}};
         try {
@@ -35,8 +33,8 @@ public class DZ {
                     throw new MyArrayDataException(i, j);
                 }
             }
-
         }
         return count;
     }
 }
+
