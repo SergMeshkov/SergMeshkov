@@ -33,7 +33,6 @@ public class DZ {
                     throw new MyArrayDataException(i, j);
                 }
             }
-
         }
         return count;
     }
